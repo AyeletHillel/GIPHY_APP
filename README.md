@@ -1,8 +1,8 @@
-#GIF Search App
+# GIF Search App
 
-#####A simple GIF serach engine web application using GIPHY API
+##### A simple GIF serach engine web application using GIPHY API
 
-####Technologies Used
+#### Technologies Used
 * HTML
 * CSS
 * JavaScript
