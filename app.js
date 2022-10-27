@@ -4,7 +4,7 @@ function searchGiphy() {
 
     //save Giphy API as a variable 
     var API_KEY = ""
-    var BASE_URL = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${userInput}&limit=1&offset=0&rating=g&lang=en`
+    var BASE_URL = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${userInput}&limit=25&offset=0&rating=g&lang=en`
 
     // make our request
     $.ajax(BASE_URL).then(function(data) {
