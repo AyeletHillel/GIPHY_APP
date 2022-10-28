@@ -16,9 +16,23 @@
 	font-family: 'Berkshire Swash', cursive;
   }
 
+  main {
+	position: absolute;
+    bottom: 0;
+	height: 30%;
+	margin: 10px;
+	text-align: center;
+  }
+
 h1, h2 {
 	display: table;
 	margin: 0 auto;
+	position: relative;
+	top: 17%; 
+}
+
+h1 {
+	font-size: 100px;
 }
 
   h2 {
