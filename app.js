@@ -6,7 +6,7 @@ function searchGiphy() {
     var userInput = $('#search-btn').val();
 
     //save Giphy API as a variable 
-    var API_KEY = ""
+    var API_KEY = "qSwLz5wu3cAdpdcewt3XdcFvo77asCUu"
     var BASE_URL = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${userInput}&limit=25&offset=0&rating=g&lang=en`
 
     $main.empty()
